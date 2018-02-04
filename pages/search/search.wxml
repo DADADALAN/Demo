@@ -1,0 +1,13 @@
+<!--search.wxml-->
+<view class="container full-content">
+  <scroll-view class='sort-left' scroll-y>
+    <block wx:for='{{tabs}}' wx:key='index'>
+      <view class='{{index == isChoose? "left-item item-checked" : "left-item"}}' data-key='{{index}}' bindtap='chooseSort'>{{item}}</view>
+    </block>
+  </scroll-view>
+  <scroll-view class='sort-right' scroll-y>
+    <block wx:for='{{tabs}}' wx:key='index'>
+      <view class='{{index == isChoose? "left-item item-checked" : "left-item"}}' data-key='{{index}}' bindtap='chooseSort'>{{item}}</view>
+    </block>
+  </scroll-view>
+</view>

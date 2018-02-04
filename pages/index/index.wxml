@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='search-wrap'>
+    <icon class='search-icon' type='search' size='15' color='#bbb'></icon>
+    <input class='search-input' type='text' placeholder='请输入搜索内容' placeholder-style='color:#bbb'></input>
+    <image class='search-more' src='../../img/more.png' bindtap='searchMore'></image>
+  </view>
+  <view class='tab-wrap'>
+    <view class='tab-line'>
+      <scroll-view class='tab-scroll' scroll-x="true">
+        <block wx:for='{{tabs}}' wx:key='index'>
+          <view class='{{index == isChoose? "tab-inline tab-checked" : "tab-inline" }}' data-key='{{index}}' bindtap='chooseSort'>{{item}}</view>
+        </block>
+      </scroll-view>
+      <image class='tab-arrow' src='../../img/arrow.png' bindtap='tapMoreSort'></image>
+    </view>
+    <view class='tab-block' hidden='{{hideMoreSort}}'>
+      <block wx:for='{{tabs}}' wx:key='index'>
+        <view class='tab-item'>
+          <image class='tab-img' src='../../img/smile.png'></image>
+          {{item}}
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='content-wrap'>
+    <image class='content-img' mode='widthFix' src='../../img/home_p.jpg'></image>
+    <image class='content-img' mode='widthFix' src='../../img/home_p.jpg'></image>
+    <image class='content-img' mode='widthFix' src='../../img/home_p.jpg'></image>
+    <image class='content-img' mode='widthFix' src='../../img/home_p.jpg'></image>
+    <image class='content-img' mode='widthFix' src='../../img/home_p.jpg'></image>
+    <image class='content-img' mode='widthFix' src='../../img/home_p.jpg'></image>
+  </view>
+  <view class='menu-wrap'>
+    <image class='menu-icon' src='../../img/person.png'></image>
+    <image class='menu-icon icon-center' src='../../img/like.png'></image>
+    <image class='menu-icon' src='../../img/home.png'></image>
+  </view>
+</view>

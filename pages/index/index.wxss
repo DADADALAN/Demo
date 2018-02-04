@@ -1,0 +1,103 @@
+/**index.wxss**/
+
+.search-wrap {
+  width: 100%;
+  background: #f6f6f6;
+  position: relative;
+}
+.search-icon{
+  padding: 20rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.search-input {
+  height: 70rpx;
+  width: 88%;
+  padding-left: 70rpx;
+}
+.search-more{
+  height: 30rpx;
+  width: 30rpx;
+  padding: 20rpx;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tab-wrap{
+  position: relative;
+}
+.tab-line{
+  border-bottom: 2rpx solid #f6f6f6;
+}
+.tab-scroll{
+  width: 90%;
+  height: 80rpx;
+  white-space: nowrap;
+}
+.tab-inline{
+  height: 76rpx;
+  line-height: 76rpx;
+  margin: 0 20rpx;
+  display: inline-block;
+}
+.tab-checked{
+  color: #f10180;
+  border-bottom: 4rpx solid #f10180;
+}
+.tab-arrow{
+  height: 50rpx;
+  width: 50rpx;
+  padding: 13rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tab-block{
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  top: 82rpx;
+  text-align: center;
+}
+.tab-item{
+  width: 25%;
+  height: 160rpx;
+  display: inline-block;
+}
+.tab-img{
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin: 18rpx auto;
+}
+
+.content-wrap{
+  width: 100%;
+}
+.content-img{
+  width: 100%;
+}
+
+.menu-wrap{
+  width: 274rpx;
+  height: 70rpx;
+  background: #000;
+  border-radius: 10rpx;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 20rpx;
+}
+.menu-icon{
+  width: 50rpx;
+  height: 50rpx;
+  padding: 10rpx 20rpx;
+}
+.icon-center{
+  border-left: 2rpx solid #fff;
+  border-right: 2rpx solid #fff;
+}
+
+

@@ -1,0 +1,16 @@
+.sort-left{
+  width: 25%;
+  background: #f6f6f6;
+}
+.left-item{
+  width: 100%;
+  text-align: center;
+  padding: 30rpx 0;
+}
+.item-checked{
+  background: #fff;
+  border-left: 4rpx solid #f10180;
+}
+.sort-right{
+  width: 70%;
+}
