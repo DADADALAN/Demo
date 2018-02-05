@@ -13,6 +13,7 @@
 } 
 .full-content{
   padding: 0;
+  flex-direction: row;
 }
 input{
   overflow:visible;
