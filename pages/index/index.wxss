@@ -56,7 +56,8 @@
   top: 0;
 }
 .tab-block{
-  width: 100%;
+  width: calc(100% + 40rpx);
+  margin: 0 -20rpx;
   background: #fff;
   position: absolute;
   top: 82rpx;
@@ -75,7 +76,8 @@
 }
 
 .content-wrap{
-  width: 100%;
+  width: calc(100% + 40rpx);
+  margin: 0 -20rpx;
 }
 .content-img{
   width: 100%;
