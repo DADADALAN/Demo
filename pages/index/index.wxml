@@ -2,8 +2,8 @@
 <view class="container">
   <view class='search-wrap'>
     <icon class='search-icon' type='search' size='15' color='#bbb'></icon>
-    <input class='search-input' type='text' placeholder='请输入搜索内容' placeholder-style='color:#bbb'></input>
-    <image class='search-more' src='../../img/more.png' bindtap='searchMore'></image>
+    <input class='search-input' type='text' placeholder='请输入搜索内容' placeholder-style='color:#bbb' bindtap='searchMore'></input>
+    <image class='search-more' src='../../img/more.png' bindtap='sortMore'></image>
   </view>
   <view class='tab-wrap'>
     <view class='tab-line'>

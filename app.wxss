@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-size: 28rpx;
   color: #333;
+  flex: 1;
 } 
 .full-content{
   padding: 0;
@@ -18,5 +19,24 @@
 input{
   overflow:visible;
 }
+span{
+  display: inline;
+}
 
+.search-wrap {
+  width: 100%;
+  background: #f6f6f6;
+  position: relative;
+}
+.search-icon{
+  padding: 20rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.search-input {
+  height: 70rpx;
+  width: 88%;
+  padding-left: 70rpx;
+}
 

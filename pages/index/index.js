@@ -59,6 +59,11 @@ Page({
       url: '../search/search',
     })
   },
+  sortMore:function(){
+    wx.navigateTo({
+      url: '../sort/sort',
+    })
+  },
   tapMoreSort: function () {
     let hideMoreSort = this.data.hideMoreSort
     this.setData({

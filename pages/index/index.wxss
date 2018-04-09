@@ -1,21 +1,5 @@
 /**index.wxss**/
 
-.search-wrap {
-  width: 100%;
-  background: #f6f6f6;
-  position: relative;
-}
-.search-icon{
-  padding: 20rpx;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.search-input {
-  height: 70rpx;
-  width: 88%;
-  padding-left: 70rpx;
-}
 .search-more{
   height: 30rpx;
   width: 30rpx;
